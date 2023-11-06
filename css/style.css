@@ -78,9 +78,10 @@ html {
 /* MAIN */
 
 .hero {
-    background-image: url("../img/hero-img.png");
+    background-image: url("../img/hero-img.svg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:1947px 1298px;
+    background-position: left -5px  bottom -190px;
     border-radius: 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);    
     padding-top: 120px;
@@ -161,7 +162,8 @@ html {
     margin: 0;
     padding: 0;
     list-style: none;
-    margin-left: 86px;    
+    margin-left: 86px;
+    margin-right: 86px;    
     margin-bottom: 200px;
 }
 
@@ -418,9 +420,51 @@ html {
 .footer__icon {
     display: flex;
     gap: 24px;
+    cursor: pointer;
 }
 
 .footer__icon:hover{
     
     fill: #FDD6BA;
+}
+
+@media only screen and (max-width: 770px) {
+    .collection__lists {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        list-style: none;   
+        margin-bottom: 200px;
+        gap: 47px;
+    }
+
+    .collection__item{
+        display: flex;
+        align-items: center;
+    }
+
+    .text__header {
+        color: #333D4B;
+        text-align: center;
+        font-family: Fraunces ;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; 
+        margin: 0;    
+    }
+
+    .text__parag {
+        width: 282px;
+        margin: 0;
+        color: #333D4B;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 24px;
+    }
 }

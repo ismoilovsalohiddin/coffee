@@ -423,6 +423,7 @@ input {
 .footer__icon {
     display: flex;
     gap: 24px;
+    cursor: pointer;
 }
 
 .footer__icon:hover{
