@@ -82,6 +82,7 @@ html {
 /* MAIN */
 
 .hero {
+    background-color:#000;
     background-image: url("../img/hero-img.svg");
     background-repeat: no-repeat;
     background-size:1947px 1298px;
