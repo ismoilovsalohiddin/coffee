@@ -90,10 +90,6 @@ html {
 }
 
 /* MAIN */
-
-.main {
-}
-
 .hero {
     border-radius: 10px;
     background-image: url("../img/about.img.png");  
@@ -505,8 +501,7 @@ html {
 .branch {
     margin: 168px 150px 168px 85px;
 }
-.branch__content {
-}
+
 .brabch__content-header {
     color: #83888F;
     font-family: Fraunces;
@@ -652,3 +647,6 @@ html {
     gap: 24px;
     cursor: pointer;
 }
+
+
+

@@ -250,9 +250,9 @@ input {
 }
 
 .cards{
-    display: flex;
+    display: none; 
     justify-content: space-between; 
-    margin-bottom: 88px;   
+    margin-bottom: 88px;  
 }
 
 .order__right-selector{
@@ -270,6 +270,7 @@ input {
     line-height: 48px; 
     margin: 0;
     margin-bottom: 56px;
+    cursor: pointer;
 }
 
 .order__right-button1{
@@ -278,14 +279,17 @@ input {
     cursor: pointer;
 }
 
+
 .order__right-button2{
-    display: none;
+    display: block;
     border: 0;
     background-color:transparent;
     cursor: pointer;
+    transition: transform 0.9s ease;
 }
 
 .input1:checked+label {
+    color: #fff;
     border-radius: 8px;
     background-color: #0E8784;
 }
@@ -429,4 +433,15 @@ input {
 .footer__icon:hover{
     
     fill: #FDD6BA;
+}
+
+
+/* Active */
+
+.cards--open{
+    display: flex;
+}
+
+.button2--active{
+    transform: rotateX(180deg);
 }
